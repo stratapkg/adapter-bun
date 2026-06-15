@@ -1,32 +1,32 @@
 {
-	"name": "@stratapkg/adapter-bun",
-	"module": "lib/index.ts",
-	"type": "module",
-	"version": "0.0.1",
-	"description": "Prisma driver adapter for Bun.sql and bun:sqlite",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/stratapkg/adapter-bun"
-	},
-	"license": "MIT",
-	"author": {
-		"email": "ShahTheShah@ya.ru",
-		"name": "@naylour",
-		"url": "https://github.com/naylour"
-	},
-	"keywords": [
-		"prisma",
-		"bun",
-		"adapter",
-		"typescript",
-		"postgresql",
-		"sqlite",
-		"stratapkg"
-	],
-	"devDependencies": {
-		"@types/bun": "latest"
-	},
-	"peerDependencies": {
-		"typescript": "^5"
-	}
+    "name": "@stratapkg/adapter-bun",
+    "module": "lib/index.ts",
+    "type": "module",
+    "version": "0.0.1",
+    "description": "Prisma driver adapter for Bun.sql and bun:sqlite",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stratapkg/adapter-bun"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "ShahTheShah@ya.ru",
+        "name": "@naylour",
+        "url": "https://github.com/naylour"
+    },
+    "keywords": [
+        "prisma",
+        "bun",
+        "adapter",
+        "typescript",
+        "postgresql",
+        "sqlite",
+        "stratapkg"
+    ],
+    "devDependencies": {
+        "@types/bun": "^1.3.14"
+    },
+    "peerDependencies": {
+        "typescript": "^6.0.3"
+    }
 }
